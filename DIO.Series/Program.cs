@@ -68,7 +68,7 @@ namespace DIO.Series
             Console.Write("Enter with serie id: ");
             int serieIndex = int.Parse(Console.ReadLine());
 
-            repository.Excludes(serieIndex);
+            repository.Delete(serieIndex);
         }
 
         private static void VisualizeSerie()

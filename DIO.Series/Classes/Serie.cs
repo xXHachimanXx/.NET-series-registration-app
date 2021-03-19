@@ -43,7 +43,7 @@ namespace DIO.Series
 
 		public bool returnDeleted()
 		{
-			return this.Excluido;
+			return this.Deleted;
 		}
 
 		public void Delete() {
