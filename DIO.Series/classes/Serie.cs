@@ -2,9 +2,9 @@ namespace DIO.Series
 {
     public class Serie : BaseEntity {
         // Atributes
-        private Genero genero {get; set;}
-        private string Titulo {get; set;}
-        private string Descricao {get; set;}
-        private int Ano {get; set;}
+        private Genre genre {get; set;}
+        private string Title {get; set;}
+        private string Description {get; set;}
+        private int Year {get; set;}
     }
 }
