@@ -20,13 +20,13 @@ namespace DIO.Series
 
         public override string ToString()
 		{
-            string retorno = "";
-            retorno += "Gênero: " + this.Genre + Environment.NewLine;
-            retorno += "Titulo: " + this.Title + Environment.NewLine;
-            retorno += "Descrição: " + this.Description + Environment.NewLine;
-            retorno += "Ano de Início: " + this.Year + Environment.NewLine;
+            string return_str = "";
+            return_str += "Genre: " + this.Genre + Environment.NewLine;
+            return_str += "Title: " + this.Title + Environment.NewLine;
+            return_str += "Description: " + this.Description + Environment.NewLine;
+            return_str += "Year: " + this.Year + Environment.NewLine;
             
-			return retorno;
+			return return_str;
 		}
         public string returnTitle()
 		{
